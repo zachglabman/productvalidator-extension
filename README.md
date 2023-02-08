@@ -18,6 +18,10 @@ A simple and effective Chrome extension that provides product validation recomme
 5. Input a one-liner description of your product idea in the extension pop-up.
 6. Get instant recommendations on how to validate your product.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Disclaimer
 
 The recommendations provided by the extension are for informational purposes only and should not be considered as professional advice. Always conduct thorough research and seek the advice of experts before making any business decisions.
