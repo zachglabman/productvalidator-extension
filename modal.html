@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recommendations</title>
+    <style>
+      #modal {
+        height: 500px;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+      }
+      h2 {
+        text-align: center;
+      }
+      #main {
+        align-items: center;
+        justify-content: center;
+      }
+      .buttons {
+        /* justify-content: center;
+        align-items: center; */
+        margin-top: auto;
+      }
+      /* .text-data {
+        align-items: center;
+      } */
+      img {
+        width: 30%;
+        margin: auto;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      p {
+        font-size: medium;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="modal">
+      <img src="logo.png" />
+      <h2>A/B Genie</h2>
+      <div class="text-data">
+        <p><b>Product:</b> <span id="original"></span></p>
+        <p><b>Ideas:</b> <span id="results"></span></p>
+      </div>
+      <div class="buttons">
+        <input
+          type="text"
+          id="input"
+          placeholder="Enter product one-liner..."
+        />
+        <button id="transcribe" type="submit">I'm Feeling Lucky</button>
+      </div>
+    </div>
+    <script src="background.js"></script>
+  </body>
+</html>
